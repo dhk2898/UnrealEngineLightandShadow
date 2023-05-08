@@ -23,6 +23,6 @@ Putting this all together results in an image like that of the above. OnComponen
 unsolved, before beginning the timeline. As the timeline increases from 0 to 1 over the course of 15 seconds, the Lerp node takes these values and translates that into 
 the rotational values between 0 and 360. These values are then fed into the SetRelativeRotation node which updates the rotation of the shadow object. 
 
-Once this rotational value falls between a certain threshold (our solution), the boolean condition used to check whether our puzzle is unsolved is set to false.\
+Once this rotational value falls between a certain threshold (our solution), the boolean condition used to check whether our puzzle is unsolved is set to false.
 
 This is the basic skeleton of the logic that we will be using throughout our game. 
