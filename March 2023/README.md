@@ -15,3 +15,7 @@ The next problem was that the "sun" that the players would control in this level
  The solution to the issue with player control came in the form of a plugin I discovered called the "Sun Position Calculator". This plugin condenses all the default lighting settings of a level into useful properties for the creator to edit. This includes things such as
  setting the time of the year in order to get different types of lighting, adjusting the brightness of the "sun" directly, and most importantly, giving a fully accessible and editable variable for time called "solar time". With values ranging from 0-24, this gives full
  control of the lighting in the level, in a quick and digestible fashion. With these two discoveries I began to work on the final level in earnest. 
+
+![SunSkySlider](https://github.com/dhk2898/UnrealEngineLightandShadow/assets/98255931/288b7539-74fc-4079-b18c-13ab47a48e05)
+
+Here is the logic used for the slider in the UI. 
